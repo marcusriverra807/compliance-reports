@@ -1,6 +1,4 @@
-# compliance-reports
-
-Compliance reports and audit documentation
+# Compliance reports and audit documentation
 
 ## Regulatory Compliance Updates
 
