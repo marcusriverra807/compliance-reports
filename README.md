@@ -19,10 +19,10 @@
    - Patch and update all software and systems promptly to mitigate known vulnerabilities.
 
 ### Remediation Plan
-- **Timeline**: Complete remediation within 6 months.
-- **Assigned Personnel**: Designate a compliance officer to oversee remediation efforts.
-- **Monitoring and Reporting**: Establish a monitoring system to track compliance status and generate regular reports.
+- **Timeline**: Complete remediation within 6 months, with regular reviews to ensure compliance with any regulatory updates.
+- **Assigned Personnel**: Designate a compliance officer to oversee remediation efforts and ensure adherence to updated recommendations.
+- **Monitoring and Reporting**: Establish a robust monitoring system to track compliance status and generate regular reports, including any changes in regulatory requirements.
 
 ### Continuous Improvement
-- Schedule ongoing training for staff on PCI-DSS requirements and security best practices.
-- Conduct annual audits to identify any new compliance gaps and update the remediation plan accordingly.
+- Schedule ongoing training for staff on PCI-DSS requirements and security best practices, including awareness of any new regulatory changes.
+- Conduct annual audits to identify any new compliance gaps and update the remediation plan accordingly, ensuring it remains aligned with current regulations.
