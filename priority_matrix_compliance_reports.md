@@ -1,19 +1,19 @@
-### Priority Matrix for Open Issues in Compliance Reports
+## Updated PCI-DSS Compliance Documentation
 
-| Priority | Issue Title                                                                 | Severity | Remediation Timeline |
-|----------|-----------------------------------------------------------------------------|----------|----------------------|
-| 1        | [Inadequate Network Security](https://github.com/marcusriverra807/compliance-reports/issues/60) | High      | 2 months              |
-| 1        | [Lack of Strong Access Control Measures](https://github.com/marcusriverra807/compliance-reports/issues/59) | High      | 3 months              |
-| 1        | [Insufficient Encryption Measures](https://github.com/marcusriverra807/compliance-reports/issues/58) | High      | 4 months              |
-| 1        | [Operational Improvement: Risk Assessment and Action Plan](https://github.com/marcusriverra807/compliance-reports/issues/57) | High      | May 21, 2026         |
-| 1        | [Operational Improvement: Remediation Plan for Critical Access Control Vulnerability](https://github.com/marcusriverra807/compliance-reports/issues/56) | High      | May 21, 2026         |
-| 1        | [Operational Improvement: Remediation Plan for Data Encryption Vulnerability](https://github.com/marcusriverra807/compliance-reports/issues/55) | High      | May 21, 2026         |
-| 2        | [Risk Assessment Based on Compliance Indicators](https://github.com/marcusriverra807/compliance-reports/issues/54) | Medium    | Ongoing              |
-| 2        | [Priority: Remediation Plan for Critical Access Control Vulnerability](https://github.com/marcusriverra807/compliance-reports/issues/53) | High      | May 21, 2026         |
-| 2        | [Priority: Remediation Plan for Data Encryption Vulnerability](https://github.com/marcusriverra807/compliance-reports/issues/52) | High      | May 21, 2026         |
-| 2        | [Risk Assessment: Lack of Strong Access Control Measures](https://github.com/marcusriverra807/compliance-reports/issues/51) | High      | Ongoing              |
-| 2        | [Risk Assessment: Insufficient Encryption Measures](https://github.com/marcusriverra807/compliance-reports/issues/50) | Critical  | Ongoing              |
-| 3        | [Compliance Gap: Requirement 10](https://github.com/marcusriverra807/compliance-reports/issues/41) | Medium    | Ongoing              |
-| 3        | [Compliance Gap: Requirement 12](https://github.com/marcusriverra807/compliance-reports/issues/40) | Medium    | Ongoing              |
-| 3        | [Compliance Gap: Requirement 6](https://github.com/marcusriverra807/compliance-reports/issues/38) | Medium    | Ongoing              |
-| 3        | [Compliance Gap: Requirement 7](https://github.com/marcusriverra807/compliance-reports/issues/39) | Medium    | Ongoing              |
+### Compliance Gaps and Actions
+
+1. **Requirement 10 - Track and Monitor All Access**
+   - **Action:** Establish logging and monitoring processes for access to network resources and cardholder data.
+   - **Status:** Open issue [Link](https://github.com/marcusriverra807/compliance-reports/issues/41)
+
+2. **Requirement 12 - Maintain an Information Security Policy**
+   - **Action:** Develop and maintain an information security policy that addresses PCI-DSS Requirement 12.
+   - **Status:** Open issue [Link](https://github.com/marcusriverra807/compliance-reports/issues/40)
+
+3. **Requirement 6 - Develop and Maintain Secure Systems**
+   - **Action:** Establish processes for developing and maintaining secure systems and applications.
+   - **Status:** Open issue [Link](https://github.com/marcusriverra807/compliance-reports/issues/38)
+
+4. **Requirement 7 - Restrict Access to Cardholder Data**
+   - **Action:** Ensure access to cardholder data is restricted based on business needs.
+   - **Status:** Open issue [Link](https://github.com/marcusriverra807/compliance-reports/issues/39)
