@@ -5,12 +5,12 @@
 
 ## Action Items
 1. **Access Control Enhancements**  
-   - Implement multi-factor authentication (MFA) for all access points using methods such as SMS and authenticator apps by **June 30, 2026**.
-   - Schedule quarterly reviews of user access permissions starting **July 2026**.
+   - Implement multi-factor authentication (MFA) for all access points using methods such as SMS and authenticator apps by **December 31, 2026**.
+   - Schedule quarterly reviews of user access permissions starting **January 2027**.
 
 2. **Data Encryption**  
-   - Encrypt sensitive data both at rest and in transit using AES-256 encryption standards by **August 31, 2026**.
-   - Ensure all communications are conducted over secure protocols (e.g., HTTPS) by **July 15, 2026**.
+   - Encrypt sensitive data both at rest and in transit using AES-256 encryption standards by **February 28, 2027**.
+   - Ensure all communications are conducted over secure protocols (e.g., HTTPS) by **January 15, 2027**.
 
 3. **Vulnerability Management**  
    - Establish a vulnerability management program for regular assessments and remediation with a kickoff meeting scheduled for **May 15, 2026**.
