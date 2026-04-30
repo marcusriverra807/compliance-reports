@@ -88,3 +88,10 @@ Best regards,
 | **Critical**   | Critical            | Outdated Software Versions on Core Production Servers, Network Devices, and Application Servers | Immediate patching within 1 week |
 | **High**       | High                | Web Application Input Validation Weaknesses (XSS and SQL Injection) on Public-Facing Web Applications | Patch within 2-4 weeks |
 | **High**       | High                | Vendor Systems Potential Exposure to Unauthorized Access | Strengthen vendor risk assessment and monitoring within 4 weeks |
+
+## Added Security Scanner Findings
+
+| Priority Level | Vulnerability Type | Description | Justification | Remediation Deadline |
+|----------------|--------------------|-------------|---------------|----------------------|
+| **Critical**   | Critical XSS        | Critical Cross-Site Scripting (XSS) Vulnerability | Immediate risk of data theft and session hijacking affecting vendor systems | 1 week |
+| **High**       | SQL Injection       | High-severity SQL Injection Vulnerability | High risk of unauthorized database access and data manipulation | 1-2 weeks |
