@@ -1,90 +1,86 @@
 # Data Retention Policy
 
 ## Purpose
-This Data Retention Policy outlines the company's practices for retaining, managing, and disposing of data in compliance with legal, regulatory, and business requirements, including specific adherence to PCI-DSS standards where applicable. The policy aims to ensure that data is retained only as long as necessary and securely disposed of when no longer needed.
+This Data Retention Policy establishes the framework for retaining, managing, and disposing of data in accordance with applicable legal, regulatory, and industry standards, including PCI-DSS. The goal is to ensure data is retained only as necessary and securely disposed of when no longer needed to protect privacy and maintain compliance.
 
 ## Scope
-This policy applies to all data collected, processed, stored, or transmitted by the company, including but not limited to customer data, employee data, financial records, operational information, and cardholder data subject to PCI-DSS requirements.
+This policy applies to all data collected, processed, stored, or transmitted by the organization, including customer data, employee information, financial records, operational data, and cardholder data subject to PCI-DSS.
 
 ## Data Retention Principles
-- Data shall be retained only for as long as necessary to fulfill the purposes for which it was collected.
-- Retention periods shall comply with applicable laws, regulations, and industry standards such as PCI-DSS.
-- Data shall be securely disposed of or anonymized once retention periods expire.
-- Access to retained data shall be restricted to authorized personnel only, with audit logging in place as per PCI-DSS Requirement 10.
-- Encryption shall be applied to sensitive data both at rest and in transit using strong protocols (e.g., AES-256, TLS 1.2 or higher).
-- Encryption key management shall follow best practices, including secure key storage, rotation, and access controls.
-- Multi-factor authentication (MFA) shall be required for access to systems containing sensitive data.
+- Data retention shall be limited to the minimum period necessary to fulfill its intended purpose.
+- Retention schedules will comply with all relevant laws, regulations, and standards, such as PCI-DSS.
+- Upon expiration of retention periods, data shall be securely deleted or anonymized to prevent unauthorized access or recovery.
+- Access to retained data will be strictly controlled and logged according to PCI-DSS Requirement 10.
+- Encryption must be applied to sensitive data at rest (AES-256 or stronger) and in transit (TLS 1.2+).
+- Encryption keys must be managed securely, including controlled access, rotation, and storage.
+- Multi-factor authentication (MFA) is mandatory for accessing systems containing sensitive data.
 
 ## Retention Periods
 | Data Type               | Retention Period        | Notes                                      |
 |-------------------------|-------------------------|--------------------------------------------|
-| Customer Data           | 7 years                 | To comply with financial and tax regulations|
-| Employee Records        | 7 years after termination| Includes payroll and performance records   |
-| Financial Records       | 7 years                 | As required by accounting standards         |
-| Operational Data        | 3 years                 | To support business continuity and audits   |
-| Marketing Data          | 2 years                 | Based on marketing campaign cycles          |
-| Cardholder Data         | As required by PCI-DSS  | Retention and protection as per PCI-DSS requirements |
+| Customer Data           | 7 years                 | Compliance with financial and tax laws     |
+| Employee Records        | 7 years post-termination| Includes payroll and performance information|
+| Financial Records       | 7 years                 | As per accounting standards                 |
+| Operational Data        | 3 years                 | For business continuity and audits          |
+| Marketing Data          | 2 years                 | Aligned with campaign cycles                 |
+| Cardholder Data         | As per PCI-DSS          | Retention and protection per PCI-DSS        |
 
 ## Data Protection and Security
-- Sensitive data, including cardholder data, shall be protected using encryption protocols such as AES-256 for data at rest and TLS 1.2 or higher for data in transit.
-- Regular vulnerability scans and penetration testing shall be conducted at least quarterly to identify and mitigate security risks.
-- Access to sensitive data shall be controlled through role-based access controls (RBAC), with roles clearly defined, documented, and reviewed at least semi-annually.
-- Continuous monitoring mechanisms and automated alerts shall be implemented to detect suspicious activities.
-- Audit logs shall be reviewed at least monthly by authorized personnel, with logs retained for a minimum of one year.
-- Procedures for handling audit log anomalies or breaches shall be documented and promptly executed.
-- Incident response and breach notification procedures related to data retention and access shall be established and regularly tested.
+- Sensitive data, including cardholder information, must be encrypted using AES-256 at rest and TLS 1.2 or higher in transit.
+- Conduct vulnerability assessments and penetration tests quarterly.
+- Enforce Role-Based Access Control (RBAC) with semi-annual reviews.
+- Implement continuous monitoring and automated alerts for suspicious activity.
+- Review audit logs monthly; retain logs for one year minimum.
+- Define procedures for audit log anomaly handling and breach response.
 
 ## Encryption Key Management
-- Encryption keys shall be generated, distributed, stored, rotated, archived, and destroyed according to documented procedures aligned with industry best practices and PCI-DSS requirements.
-- Key rotation shall occur at least annually or immediately if a key compromise is suspected.
-- Access to encryption keys shall be strictly limited to authorized personnel and logged.
+- Follow documented procedures for key generation, distribution, storage, rotation (minimum annually), archiving, and destruction.
+- Limit key access to authorized personnel only, with audit logging.
 
 ## Audit Logging and Monitoring
-- Audit logs shall capture detailed events including user access, administrative actions, authentication attempts (both successful and failed), and changes to system configurations.
-- Logs shall be protected against unauthorized access and tampering, with integrity checks performed regularly.
-- Log retention shall meet PCI-DSS requirements, with logs stored securely for at least one year.
+- Capture detailed logs of user access, administrative actions, authentication attempts, and configuration changes.
+- Protect logs from unauthorized access and tampering.
+- Retain logs securely for at least one year, meeting PCI-DSS requirements.
 
 ## Network Segmentation and Controls
-- Systems and networks storing or processing cardholder data shall be segmented from the rest of the network to reduce the scope of PCI-DSS assessments and limit access.
-- Network controls such as firewalls, IDS/IPS, and access control lists shall be implemented to enforce segmentation.
+- Isolate systems handling cardholder data from other networks to reduce PCI-DSS scope.
+- Use firewalls, IDS/IPS, and ACLs to enforce segmentation.
 
 ## Data Masking and Redaction
-- Cardholder data shall be masked or redacted when displayed or used in any non-secure environment (e.g., reports, user interfaces) to prevent unauthorized disclosure.
-- Full PAN (Primary Account Number) shall never be displayed except to authorized personnel with a legitimate business need.
+- Mask or redact cardholder data in reports, UIs, or non-secure environments.
+- Display full PAN only to authorized users with a legitimate business need.
 
 ## Third-Party Vendor Management
-- All third-party vendors handling cardholder data shall comply with PCI-DSS and this data retention policy.
-- Contracts with vendors shall include requirements for data protection, retention, and breach notification.
+- Ensure all vendors handling cardholder data comply with PCI-DSS and this policy.
+- Include data protection, retention, and breach notification clauses in vendor contracts.
 
 ## Testing and Validation of Controls
-- Encryption, access controls, and data disposal mechanisms shall be reviewed and tested at least annually.
-- Results of tests and reviews shall be documented and any deficiencies promptly remediated.
+- Annually test encryption, access controls, and data disposal processes.
+- Document test results and remediate findings promptly.
 
 ## Incident Response Procedures
-- Incident response plans shall include specific procedures for cardholder data breaches, including containment, eradication, notification, and recovery steps.
-- Breach notification to affected parties and regulatory bodies shall follow PCI-DSS timelines and requirements.
+- Maintain incident response plans addressing cardholder data breaches including containment, eradication, notification, and recovery.
+- Follow PCI-DSS timelines for breach notifications.
 
 ## Employee Training and Awareness
-- Employees handling cardholder data shall receive mandatory PCI-DSS-specific training at least annually.
-- Training shall cover data protection, secure handling, incident reporting, and compliance obligations.
+- Provide annual PCI-DSS-specific training to employees handling cardholder data.
+- Cover data protection, incident reporting, and compliance responsibilities.
 
 ## Data Disposal
-- Data that has met its retention period shall be securely deleted or anonymized.
-- Disposal methods shall ensure that data cannot be recovered or reconstructed.
-- Disposal activities shall be documented and auditable.
+- Securely delete or anonymize data after retention periods expire.
+- Use methods preventing data recovery.
+- Document disposal activities for audit purposes.
 
 ## Roles and Responsibilities
-- Data Owners: Responsible for classifying data and defining retention periods.
-- IT Department: Responsible for implementing data retention, encryption, disposal mechanisms, and access controls.
-- Compliance Team: Responsible for monitoring adherence to this policy, regulatory changes, and PCI-DSS compliance.
-- Security Team: Responsible for conducting vulnerability scans, penetration testing, and incident response.
+- Data Owners: Classify data and define retention requirements.
+- IT: Implement retention, encryption, disposal, and access controls.
+- Compliance: Monitor regulatory adherence and policy compliance.
+- Security: Conduct vulnerability assessments and incident response.
 
 ## Compliance
-Failure to comply with this policy may result in disciplinary action and legal consequences. Regular audits will be conducted to ensure compliance, including audits specific to PCI-DSS requirements such as tracking and monitoring access (Requirement 10) and maintaining an information security policy (Requirement 12).
+Non-compliance may result in disciplinary action and legal penalties. Conduct regular audits to verify compliance, including PCI-DSS-specific requirements.
 
 ## Review
-This policy shall be reviewed at least annually and additionally in response to significant changes in legal, regulatory, business requirements, or after security incidents.
+Review this policy annually and upon significant regulatory, business, or security changes.
 
 ---
-
-*Document created and maintained by the Compliance Team*
