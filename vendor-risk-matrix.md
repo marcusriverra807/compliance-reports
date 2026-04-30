@@ -97,10 +97,6 @@ Best regards,
 | **Critical**   | Critical            | Outdated Software Versions on Core Production Servers, Network Devices, and Application Servers | Immediate patching within 1 week |
 | **High**       | High                | Web Application Input Validation Weaknesses (XSS and SQL Injection) on Public-Facing Web Applications | Patch within 2-4 weeks |
 | **High**       | High                | Vendor Systems Potential Exposure to Unauthorized Access | Strengthen vendor risk assessment and monitoring within 4 weeks |
-
-## Added Security Scanner Findings
-
-| Priority Level | Vulnerability Type | Description | Justification | Remediation Deadline |
-|----------------|--------------------|-------------|---------------|----------------------|
-| **Critical**   | Critical XSS        | Critical Cross-Site Scripting (XSS) Vulnerability | Immediate risk of data theft and session hijacking affecting vendor systems | 1 week |
-| **High**       | SQL Injection       | High-severity SQL Injection Vulnerability | High risk of unauthorized database access and data manipulation | 1-2 weeks |
+| **Critical**   | Critical            | Inadequate Network Security: Firewalls and intrusion detection systems not properly configured | Complete review and updates within 3 weeks (by May 21, 2026) | [Issue #145](https://github.com/marcusriverra807/compliance-reports/issues/145)
+| **High**       | High                | Lack of Strong Access Control Measures: Insufficient user access controls | Implement RBAC and complete access reviews within 4 weeks (by May 31, 2026) | [Issue #144](https://github.com/marcusriverra807/compliance-reports/issues/144)
+| **High**       | High                | Insufficient Encryption Measures: Sensitive data not encrypted at rest and in transit | Complete encryption implementation and audits within 6 weeks (by June 14, 2026) | [Issue #143](https://github.com/marcusriverra807/compliance-reports/issues/143)
