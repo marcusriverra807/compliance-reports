@@ -7,6 +7,7 @@
   - Review and update firewall rules to align with security policies.
   - Enhance intrusion detection capabilities to identify and respond to threats.
   - Conduct regular network security assessments.
+- **Remediation Timeline:** Complete review and updates within 3 weeks (by May 21, 2026).
 - **Issue Link:** [Issue #145](https://github.com/marcusriverra807/compliance-reports/issues/145)
 
 ## 2. High Severity - Lack of Strong Access Control Measures
@@ -16,6 +17,7 @@
   - Implement role-based access controls (RBAC).
   - Conduct regular access reviews to ensure appropriate access levels.
   - Enforce strong authentication mechanisms.
+- **Remediation Timeline:** Implement RBAC and complete access reviews within 4 weeks (by May 31, 2026).
 - **Issue Link:** [Issue #144](https://github.com/marcusriverra807/compliance-reports/issues/144)
 
 ## 3. High Severity - Insufficient Encryption Measures
@@ -25,6 +27,7 @@
   - Implement end-to-end encryption for sensitive data.
   - Ensure compliance with cryptographic standards and best practices.
   - Regularly audit encryption implementations for effectiveness.
+- **Remediation Timeline:** Complete encryption implementation and audits within 6 weeks (by June 14, 2026).
 - **Issue Link:** [Issue #143](https://github.com/marcusriverra807/compliance-reports/issues/143)
 
 This report highlights critical and high severity vulnerabilities that require urgent remediation to secure the organization's infrastructure and data. Please prioritize actions accordingly.
