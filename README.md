@@ -22,3 +22,16 @@
 ### Continuous Improvement
 - Schedule ongoing training for staff on PCI-DSS requirements and security best practices, including awareness of any new regulatory changes.
 - Conduct annual audits to identify any new compliance gaps and update the remediation plan accordingly, ensuring it remains aligned with current regulations.
+
+
+---
+
+## Critical Vulnerability: Inadequate Network Security
+- **Description:** Firewalls and intrusion detection systems are not properly configured, exposing the network to potential attacks.
+- **Affected Systems:** Network infrastructure, firewalls, and intrusion detection/prevention systems.
+- **Remediation Steps:**
+  - Review and update firewall rules to align with security policies.
+  - Enhance intrusion detection capabilities to identify and respond to threats.
+  - Conduct regular network security assessments.
+- **Remediation Timeline:** Complete review and updates within 3 weeks (by May 21, 2026).
+- **Issue Link:** [Issue #145](https://github.com/marcusriverra807/compliance-reports/issues/145)
