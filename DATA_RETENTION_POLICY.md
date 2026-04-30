@@ -11,14 +11,14 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 - Retention schedules will comply with all relevant laws, regulations, and standards, such as PCI-DSS.
 - Upon expiration of retention periods, data shall be securely deleted or anonymized to prevent unauthorized access or recovery.
 - Access to retained data will be strictly controlled and logged according to PCI-DSS Requirement 10.
-- Encryption must be applied to sensitive data at rest (AES-256 or stronger) and in transit (TLS 1.2+).
+- Encryption must be applied to sensitive data at rest (AES-256 or stronger) and in transit (TLS 1.3 or higher where feasible, otherwise TLS 1.2+).
 - Encryption keys must be managed securely, including controlled access, rotation, and storage.
-- Multi-factor authentication (MFA) is mandatory for accessing systems containing sensitive data.
+- Multi-factor authentication (MFA) is mandatory for accessing systems containing sensitive data and must comply with NIST SP 800-63B guidelines, preferably using phishing-resistant methods for high-risk access.
 
 ## Retention Periods
 | Data Type               | Retention Period        | Notes                                      |
 |-------------------------|-------------------------|--------------------------------------------|
-| Customer Data           | 7 years                 | Compliance with financial and tax laws     |
+| Customer Data           | 7 years                 | Compliance with financial, tax laws, and applicable privacy regulations such as GDPR and CCPA     |
 | Employee Records        | 7 years post-termination| Includes payroll and performance information|
 | Financial Records       | 7 years                 | As per accounting standards                 |
 | Operational Data        | 3 years                 | For business continuity and audits          |
@@ -26,11 +26,11 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 | Cardholder Data         | As per PCI-DSS          | Retention and protection per PCI-DSS        |
 
 ## Data Protection and Security
-- Sensitive data, including cardholder information, must be encrypted using AES-256 at rest and TLS 1.2 or higher in transit.
-- Conduct vulnerability assessments and penetration tests quarterly.
+- Sensitive data, including cardholder information, must be encrypted using AES-256 at rest and TLS 1.3 or higher in transit where feasible.
+- Conduct vulnerability assessments and penetration tests quarterly, including emerging threats such as supply chain attacks, cloud-specific risks, and zero-day vulnerabilities.
 - Enforce Role-Based Access Control (RBAC) with semi-annual reviews.
 - Implement continuous monitoring and automated alerts for suspicious activity.
-- Review audit logs monthly; retain logs for one year minimum.
+- Review audit logs monthly; retain logs securely for a minimum of two years or longer based on regulatory or business requirements.
 - Define procedures for audit log anomaly handling and breach response.
 
 ## Encryption Key Management
@@ -40,7 +40,7 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 ## Audit Logging and Monitoring
 - Capture detailed logs of user access, administrative actions, authentication attempts, and configuration changes.
 - Protect logs from unauthorized access and tampering.
-- Retain logs securely for at least one year, meeting PCI-DSS requirements.
+- Retain logs securely for at least two years, or longer if required by applicable regulations.
 
 ## Network Segmentation and Controls
 - Isolate systems handling cardholder data from other networks to reduce PCI-DSS scope.
@@ -53,6 +53,7 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 ## Third-Party Vendor Management
 - Ensure all vendors handling cardholder data comply with PCI-DSS and this policy.
 - Include data protection, retention, and breach notification clauses in vendor contracts.
+- Implement a vendor risk management program that includes ongoing risk assessments, continuous monitoring, and regular compliance attestations.
 
 ## Testing and Validation of Controls
 - Annually test encryption, access controls, and data disposal processes.
@@ -60,15 +61,17 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 
 ## Incident Response Procedures
 - Maintain incident response plans addressing cardholder data breaches including containment, eradication, notification, and recovery.
-- Follow PCI-DSS timelines for breach notifications.
+- Follow PCI-DSS timelines and current cross-jurisdictional laws for breach notifications.
+- Include clear escalation paths and communication plans.
 
 ## Employee Training and Awareness
 - Provide annual PCI-DSS-specific training to employees handling cardholder data.
-- Cover data protection, incident reporting, and compliance responsibilities.
+- Introduce role-based and more frequent training modules, especially for high-risk roles and post-incident refreshers.
+- Track training completion and effectiveness.
 
 ## Data Disposal
 - Securely delete or anonymize data after retention periods expire.
-- Use methods preventing data recovery.
+- Use methods preventing data recovery and align with NIST SP 800-88 Guidelines for Media Sanitization or equivalent standards.
 - Document disposal activities for audit purposes.
 
 ## Roles and Responsibilities
@@ -81,6 +84,6 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 Non-compliance may result in disciplinary action and legal penalties. Conduct regular audits to verify compliance, including PCI-DSS-specific requirements.
 
 ## Review
-Review this policy annually and upon significant regulatory, business, or security changes.
+Review this policy annually and upon significant regulatory, business, or security changes. Establish interim review triggers such as major regulatory updates, security incidents, or business changes.
 
 ---
