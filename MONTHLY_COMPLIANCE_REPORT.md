@@ -52,3 +52,8 @@ This summary underscores the organization's commitment to strengthening security
 The security and compliance posture continues to strengthen through proactive vulnerability management, efficient incident recovery, and comprehensive compliance monitoring. Continued focus on reducing MTTR and addressing prioritized action plans will further enhance resilience.
 
 ---
+
+## Latest KPI Dashboard Screenshots
+- ![Screenshot 1](URL1)
+- ![Screenshot 2](URL2)
+- ![Screenshot 3](URL3)
