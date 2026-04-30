@@ -17,3 +17,14 @@
 #### Monitoring and Compliance
 - Establish a monitoring system to track compliance status and generate regular reports, including any changes in regulatory requirements.
 - Schedule ongoing training for staff on PCI-DSS requirements and security best practices, including awareness of any new regulatory changes.
+
+### Weekly Summary Report Entry
+
+- Added weekly summary report for vulnerabilities and action items.
+- Critical and high severity vulnerabilities summarized with remediation deadlines.
+- Detailed remediation plans and action items for security scanners included.
+- Security scanner optimization plan with deadlines and responsible team members.
+
+---
+
+This entry reflects the latest vulnerability management activities and progress.
