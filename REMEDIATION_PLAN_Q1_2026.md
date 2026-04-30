@@ -10,7 +10,7 @@
   - Implement automated patch management tools to streamline updates.
 - **Remediation Timeline:** Immediate action required; patches and updates to be applied within 1-2 weeks.
 - **Responsible Teams:** IT Operations, Security Operations
-- **Evidence Collection:** Collect automated inventory reports, patching logs, and update status from patch management tools.
+- **Evidence Collection:** Collect automated inventory reports, patching logs, and update status from patch management tools. Ensure reports and logs are in standardized formats such as JSON or CSV for pipeline ingestion. Verify evidence timestamps to confirm alignment with remediation timeline. Store evidence in the centralized evidence repository integrated with the pipeline for automated retrieval and validation.
 
 ## 2. High Vulnerabilities: Web Application Input Validation (XSS and SQL Injection)
 - **CVSS Score Range:** 7.0 - 8.9 (High)
@@ -23,7 +23,7 @@
   - Provide secure coding training to development teams.
 - **Remediation Timeline:** Begin enhanced testing and code reviews within 2-4 weeks; deploy fixes within 6-8 weeks.
 - **Responsible Teams:** Application Development, Security Testing, DevOps
-- **Evidence Collection:** Gather security testing reports, code review logs, WAF configuration snapshots, and training attendance records.
+- **Evidence Collection:** Gather security testing reports, code review logs, WAF configuration snapshots, and training attendance records. Specify evidence formats (e.g., PDF reports, signed attendance sheets or LMS exports). Include metadata verification to ensure evidence is current and complete. Integrate evidence storage with the pipeline for automated validation and retention according to policy.
 
 ## 3. Vendor Systems Exposure: Potential Unauthorized Access
 - **CVSS Score Range:** 7.0 - 9.0 (High to Critical, depending on vendor system)
@@ -36,7 +36,7 @@
   - Establish contractual security requirements and remediation obligations with vendors.
 - **Remediation Timeline:** Complete initial risk assessments within 2 weeks; ongoing monitoring and remediation as needed.
 - **Responsible Teams:** Vendor Management, Security Operations, Compliance
-- **Evidence Collection:** Collect vendor risk assessment reports, security audit documents, access monitoring logs, and contractual agreements.
+- **Evidence Collection:** Collect vendor risk assessment reports, security audit documents, access monitoring logs, and contractual agreements. Ensure all evidence is timestamped and stored in a secure, centralized location accessible by the pipeline. Implement evidence validation steps to confirm completeness and accuracy prior to acceptance.
 
 ---
 
