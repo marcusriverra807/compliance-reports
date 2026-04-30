@@ -5,6 +5,7 @@
 #### Access Control Measures
 - Implemented role-based access control (RBAC) to limit access based on user roles.
 - Regularly review access permissions and revoke access for users who no longer need it.
+- Evidence Collection: Integrate automated reports from access control review tools and logs of access permission changes.
 
 #### Data Encryption
 - Utilized strong encryption protocols (e.g., AES-256 for data at rest and TLS 1.2 or higher for data in transit).
@@ -16,6 +17,7 @@
 - Added weekly summary reports for vulnerabilities and action items, including critical and high severity vulnerabilities.
 - Detailed remediation plans and action items are now tracked with deadlines and accountable team members.
 - Security scanner optimization plan updated with current deadlines and responsible personnel.
+- Evidence Collection: Include automated vulnerability scan results and remediation status reports.
 
 #### Incident Follow-Up and Documentation
 - Developed detailed action plans for follow-ups based on incident documentation updates.
@@ -28,6 +30,7 @@
 - Updated data retention policy to enhance retention periods and PCI-DSS compliance details.
 - Revised remediation steps and compliance strategies incorporated into ongoing staff training and awareness programs.
 - Schedule ongoing training for staff on PCI-DSS requirements and security best practices, including awareness of any new regulatory changes.
+- Evidence Collection: Capture compliance monitoring reports and staff training records.
 
 ---
 
