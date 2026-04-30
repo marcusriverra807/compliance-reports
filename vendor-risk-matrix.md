@@ -44,14 +44,17 @@
 ## Remediation Priority Matrix
 | Priority Level | Vulnerability Type | Description | Remediation Deadline |
 |----------------|--------------------|-------------|----------------------|
+| **Critical**   | Critical            | Inadequate Network Security: Firewalls and intrusion detection systems misconfigured, exposing network to attacks. | Complete review and updates within 3 weeks (by May 21, 2026) |
 | **High**       | Critical            | Critical XSS Vulnerability | Immediate Attention Required |
 | **High**       | Critical            | Critical SQL Injection Vulnerability | Immediate Attention Required |
 | **High**       | Critical            | Tracking Issue: Remediation for SQL Injection Vulnerability | 1 Week from Today |
 | **High**       | Critical            | Tracking Issue: Remediation for XSS Vulnerability | 1 Week from Today |
+| **High**       | High                | Lack of Strong Access Control Measures: Insufficient user access controls risking unauthorized access. | Implement RBAC and complete access reviews within 4 weeks (by May 31, 2026) |
 | **Medium**     | High                | Risk Assessment: High SQL Injection Vulnerability | Immediate Attention Required |
 | **Medium**     | High                | Risk Assessment: High XSS Vulnerability | Immediate Attention Required |
 | **Medium**     | High                | Tracking Issue: Remediation for Potential SQL Injection Vulnerability | 2 Weeks from Today |
 | **Medium**     | High                | Tracking Issue: Remediation for Potential XSS Vulnerability | 2 Weeks from Today |
+| **Medium**     | High                | Insufficient Encryption Measures: Sensitive data not encrypted at rest and in transit. | Complete encryption implementation and audits within 6 weeks (by June 14, 2026) |
 | **Low**        | Medium              | Tracking Issue: Remediation for Testing New Detection Rules for SQL Injection and XSS | 4 Weeks from Today |
 | **Low**        | -                   | Document Output Format for Scan Results | Ongoing |
 | **Low**        | -                   | Enhance XSS Detection Rules in sql-xss-configs.yaml | Ongoing |
