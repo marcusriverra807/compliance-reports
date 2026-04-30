@@ -79,3 +79,12 @@ Please prioritize these issues and coordinate with the relevant teams to ensure 
 
 Best regards,
 [Your Name]
+
+
+## Added Vendor Risks from Q1 2026 Findings
+
+| Priority Level | Vulnerability Type | Description | Remediation Deadline |
+|----------------|--------------------|-------------|----------------------|
+| **Critical**   | Critical            | Outdated Software Versions on Core Production Servers, Network Devices, and Application Servers | Immediate patching within 1 week |
+| **High**       | High                | Web Application Input Validation Weaknesses (XSS and SQL Injection) on Public-Facing Web Applications | Patch within 2-4 weeks |
+| **High**       | High                | Vendor Systems Potential Exposure to Unauthorized Access | Strengthen vendor risk assessment and monitoring within 4 weeks |
