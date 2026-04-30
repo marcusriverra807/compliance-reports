@@ -12,6 +12,22 @@ This report provides an overview of the current compliance status, security metr
 
 ## Security Metrics
 
+### Security KPI Dashboard Summary
+
+The latest security KPIs reflect ongoing improvements and proactive management across multiple areas of compliance and security:
+
+- **Compliance Updates:** Role-based access control (RBAC) has been implemented to restrict access based on user roles, with regular reviews to ensure appropriate permissions. Strong encryption protocols including AES-256 for data at rest and TLS 1.2+ for data in transit are in use, coupled with secure key management and regular key rotation.
+
+- **Vulnerability Management:** Regular vulnerability scans and penetration testing are conducted quarterly, with prompt patching of discovered issues. Weekly summary reports track critical and high severity vulnerabilities, supported by detailed remediation plans with clear deadlines and assigned accountability. Security scanner optimization efforts continue to enhance detection capabilities.
+
+- **Incident Follow-Up:** Detailed action plans are developed following incident documentation updates, integrating compliance action plans and remediation strategies. Prioritized action items focus on addressing the most critical compliance issues to improve overall security posture.
+
+- **Monitoring and Compliance:** A monitoring system tracks compliance status and regulatory changes, supplemented by updated data retention policies and PCI-DSS compliance enhancements. Ongoing staff training programs reinforce awareness and adherence to security best practices.
+
+- **Mean Time to Recovery (MTTR):** MTTR remains a key performance indicator measuring the average time to recover from security incidents. Efforts to reduce MTTR continue through enhanced incident response and recovery processes, supporting improved resilience and operational continuity.
+
+This summary underscores the organization's commitment to strengthening security and compliance through continuous monitoring, timely remediation, and staff engagement.
+
 ### Mean Time to Recovery (MTTR)
 - MTTR measures the average time taken to recover from security incidents.
 - Calculation: Total downtime divided by the number of incidents.
