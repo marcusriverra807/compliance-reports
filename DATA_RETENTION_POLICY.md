@@ -38,6 +38,31 @@ This policy applies to all data collected, processed, stored, or transmitted by 
 - IT Department: Responsible for implementing data retention, encryption, and disposal mechanisms.
 - Compliance Team: Responsible for monitoring adherence to this policy, regulatory changes, and PCI-DSS compliance.
 
+## PCI-DSS Specific Enhancements
+### Information Security Policy and Training
+- Maintain a comprehensive information security policy that includes data retention practices.
+- Conduct regular security awareness training for all personnel handling sensitive data to ensure understanding of retention and protection responsibilities.
+
+### Vulnerability Scanning and Penetration Testing
+- Conduct vulnerability scans and penetration tests at least quarterly and after significant changes to the environment.
+- Include systems storing, processing, or transmitting cardholder data in the scope of these assessments.
+
+### Encryption Key Management
+- Implement encryption key management practices including key generation, distribution, storage, rotation, and destruction in compliance with PCI-DSS requirements.
+- Restrict key access to authorized personnel and maintain logs of key usage.
+
+### Incident Response and Breach Notification
+- Establish procedures for incident response related to data retention including detection, containment, eradication, and recovery.
+- Define breach notification timelines and communication protocols aligned with PCI-DSS and applicable regulations.
+
+### Access Control Clarifications
+- Define "authorized personnel" explicitly including roles and responsibilities.
+- Perform periodic access reviews and immediately revoke access upon role changes or termination.
+
+### Cardholder Data Retention Periods
+- Specify exact retention periods for cardholder data referencing PCI-DSS or relevant legal and regulatory requirements.
+- Define conditions under which retention periods may be extended or shortened.
+
 ## Compliance
 Failure to comply with this policy may result in disciplinary action and legal consequences. Regular audits will be conducted to ensure compliance, including audits specific to PCI-DSS requirements such as tracking and monitoring access (Requirement 10) and maintaining an information security policy (Requirement 12).
 
