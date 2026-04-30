@@ -45,11 +45,14 @@
 | Priority Level | Vulnerability Type | Description | Remediation Deadline |
 |----------------|--------------------|-------------|----------------------|
 | **Critical**   | Critical            | Inadequate Network Security: Firewalls and intrusion detection systems misconfigured, exposing network to attacks. | Complete review and updates within 3 weeks (by May 21, 2026) |
+| **Critical**   | Critical            | Outdated Software Versions on Core Production Servers, Network Devices, and Application Servers. Critical vulnerabilities due to outdated software with known exploits. | Immediate patching within 1 week |
 | **High**       | Critical            | Critical XSS Vulnerability | Immediate Attention Required |
 | **High**       | Critical            | Critical SQL Injection Vulnerability | Immediate Attention Required |
 | **High**       | Critical            | Tracking Issue: Remediation for SQL Injection Vulnerability | 1 Week from Today |
 | **High**       | Critical            | Tracking Issue: Remediation for XSS Vulnerability | 1 Week from Today |
 | **High**       | High                | Lack of Strong Access Control Measures: Insufficient user access controls risking unauthorized access. | Implement RBAC and complete access reviews within 4 weeks (by May 31, 2026) |
+| **High**       | High                | Web Application Input Validation Weaknesses (XSS and SQL Injection) on Public-Facing Web Applications. High risk due to exposure to XSS and SQL Injection attacks. | Patch within 2-4 weeks |
+| **High**       | High                | Vendor Systems Potential Exposure to Unauthorized Access. Potential unauthorized access risk due to exposure of vendor-managed systems integrated with internal networks. | Strengthen vendor risk assessment and monitoring within 4 weeks |
 | **Medium**     | High                | Risk Assessment: High SQL Injection Vulnerability | Immediate Attention Required |
 | **Medium**     | High                | Risk Assessment: High XSS Vulnerability | Immediate Attention Required |
 | **Medium**     | High                | Tracking Issue: Remediation for Potential SQL Injection Vulnerability | 2 Weeks from Today |
@@ -59,15 +62,6 @@
 | **Low**        | -                   | Document Output Format for Scan Results | Ongoing |
 | **Low**        | -                   | Enhance XSS Detection Rules in sql-xss-configs.yaml | Ongoing |
 
-## Next Steps
-- Ensure compliance with the outlined PCI-DSS action items and continuously monitor the effectiveness of implemented security measures.  
-- Schedule regular reviews of the vendor risk matrix to incorporate updates from compliance and security scanner findings.  
-- Form a dedicated task force to address critical and high-severity vulnerabilities with defined roles and timelines.  
-- Conduct security assessments, develop remediation strategies, implement fixes, and validate through testing and monitoring.  
-- Update documentation and provide training on security practices and tools.
-
----
-
 ## MTTR (Mean Time to Recovery) Integration
 - Integrate MTTR tracking into vendor risk monitoring to measure the average time taken to recover from security incidents related to vendor vulnerabilities.
 - Use MTTR as a key performance indicator (KPI) to assess the effectiveness of incident response and remediation efforts.
@@ -75,7 +69,12 @@
 - Set MTTR targets as part of service level agreements (SLAs) with vendors to ensure timely recovery and risk mitigation.
 - Incorporate MTTR data into regular reporting and risk assessment updates to provide visibility to stakeholders.
 
----
+## Next Steps
+- Ensure compliance with the outlined PCI-DSS action items and continuously monitor the effectiveness of implemented security measures.
+- Schedule regular reviews of the vendor risk matrix to incorporate updates from compliance and security scanner findings.
+- Form a dedicated task force to address critical and high-severity vulnerabilities with defined roles and timelines.
+- Conduct security assessments, develop remediation strategies, implement fixes, and validate through testing and monitoring.
+- Update documentation and provide training on security practices and tools.
 
 ## Notification for Bashir
 
