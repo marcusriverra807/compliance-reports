@@ -35,3 +35,9 @@
   - Conduct regular network security assessments.
 - **Remediation Timeline:** Complete review and updates within 3 weeks (by May 21, 2026).
 - **Issue Link:** [Issue #145](https://github.com/marcusriverra807/compliance-reports/issues/145)
+
+
+## Updated PCI-DSS Compliance Action Plan
+- Detailed remediation timelines and responsibilities have been added to the PCI-DSS Action Plan document.
+- For full details, see [PCI-DSS Action Plan](./PCI-DSS_Action_Plan.md).
+
