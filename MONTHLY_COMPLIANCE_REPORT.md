@@ -28,6 +28,9 @@ The latest security KPIs reflect ongoing improvements and proactive management a
 
 This summary underscores the organization's commitment to strengthening security and compliance through continuous monitoring, timely remediation, and staff engagement.
 
+
+*Note: For detailed, up-to-date visualizations and metrics, please refer to the [Security KPI Dashboard Update](SECURITY_KPI_DASHBOARD.md) document within this repository.*
+
 ### Mean Time to Recovery (MTTR)
 - MTTR measures the average time taken to recover from security incidents.
 - Calculation: Total downtime divided by the number of incidents.
