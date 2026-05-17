@@ -25,15 +25,36 @@
 
 ---
 
-## Critical Vulnerability: Inadequate Network Security
-- **Description:** Firewalls and intrusion detection systems are not properly configured, exposing the network to potential attacks.
+## Updated Remediation Steps for Critical Vulnerability: Inadequate Network Security
+
+- **Description:** Firewalls and intrusion detection systems were found to be improperly configured, exposing the network to potential attacks.
 - **Affected Systems:** Network infrastructure, firewalls, and intrusion detection/prevention systems.
-- **Remediation Steps:**
-  - Review and update firewall rules to align with security policies.
-  - Enhance intrusion detection capabilities to identify and respond to threats.
-  - Conduct regular network security assessments.
-- **Remediation Timeline:** Complete review and updates within 3 weeks (by May 21, 2026).
-- **Issue Link:** [Issue #145](https://github.com/marcusriverra807/compliance-reports/issues/145)
+- **Updated Remediation Steps:**
+  - Conduct a comprehensive audit of all firewall rules and configurations to ensure alignment with updated security policies.
+  - Upgrade intrusion detection and prevention systems with the latest signatures and enhanced anomaly detection capabilities.
+  - Implement automated alerts for suspicious network activities to enable rapid response.
+  - Schedule quarterly network security assessments to proactively identify and mitigate risks.
+  - Provide specialized training for network security personnel to maintain best practices.
+- **Updated Remediation Timeline:** Complete the comprehensive audit and initial upgrades within 4 weeks (by June 15, 2026). Establish ongoing quarterly assessments starting Q3 2026.
+
+---
+
+## Recent Developments in Compliance Strategy
+
+- **Enhanced Monitoring and Reporting:**
+  - Deployment of a centralized compliance dashboard to track real-time status of remediation efforts and compliance metrics.
+  - Integration of automated compliance checks into continuous integration/continuous deployment (CI/CD) pipelines.
+- **Policy Updates:**
+  - Revision of data encryption policies to mandate use of TLS 1.3 for all data transmissions.
+  - Strengthening of access control policies with multi-factor authentication (MFA) now required for all administrative access.
+- **Training and Awareness:**
+  - Launch of a quarterly compliance training program for all staff, emphasizing emerging threats and regulatory changes.
+  - Introduction of phishing simulation exercises to improve employee awareness and response.
+- **Audit and Review:**
+  - Annual third-party audits scheduled to validate compliance posture and identify new gaps.
+  - Establishment of a compliance steering committee to oversee strategy and ensure alignment with business objectives.
+
+---
 
 ## Updated PCI-DSS Compliance Action Plan
 - Detailed remediation timelines and responsibilities have been added to the PCI-DSS Action Plan document.
