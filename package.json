@@ -1,5 +1,1 @@
-# Upgraded dependencies
-
-- Updated package.json with latest versions of dependencies.
-- Ensured compatibility with existing codebase.
-- Conducted tests to verify functionality after upgrades.
+{"dependencies": {"react": "latest", "encryption-package-name": "latest"}}
