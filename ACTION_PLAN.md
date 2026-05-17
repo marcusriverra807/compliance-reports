@@ -48,3 +48,12 @@
 
 ### Timeline
 - Complete remediation within **6 months** with regular reviews to ensure compliance with regulatory updates and to monitor the remediation of identified vulnerabilities.
+
+### Vendor Compliance Improvement Actions
+1. **Enforce Vendor Compliance Deadlines**: Ensure vendors adhere to deadlines for access control policies, vulnerability remediation, and documentation updates.
+2. **Regular Vulnerability Scanning and Patch Management**: Coordinate schedules with vendors for regular scanning and timely patching of security issues.
+3. **Web Application Security Testing**: Perform thorough testing and code reviews with vendors focusing on XSS and SQL Injection vulnerabilities.
+4. **Vendor Training Programs**: Develop and require vendor participation in training programs on compliance and security best practices.
+5. **Continuous Monitoring and Reporting**: Implement mechanisms to monitor vendor compliance and report incidents promptly.
+6. **Enhanced Vendor Risk Assessments**: Update risk assessment criteria and conduct ongoing monitoring to identify emerging vendor risks.
+7. **Integrate Compliance in Vendor Evaluations**: Include compliance and security performance as key criteria in vendor selection and ongoing evaluations.
