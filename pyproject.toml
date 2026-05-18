@@ -1,0 +1,8 @@
+[project]
+# Bumped dependencies related to GitHub Advanced Security
+dependencies = [
+    "safety>=1.10,<2",
+    "bandit>=1.7,<2",
+    "pyup>=1.0,<2",
+    "dependabot>=0.0.1,<1"
+]
