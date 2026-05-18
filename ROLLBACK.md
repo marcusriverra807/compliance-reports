@@ -1,3 +1,3 @@
-# Rollback of commit d4d0e0c
+# Rollback of commit b8e40949
 
-This rollback reverts the changes made in commit d4d0e0c56e2e76e1e4cf9e98f3629632f3b0384e, which enabled secret scanning.
+This rollback reverts the changes made in commit b8e40949434f678b7e640d10d7f26041e899d0fe due to compliance issues.
