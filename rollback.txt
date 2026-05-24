@@ -1,0 +1,3 @@
+# Rollback encryption package
+
+This commit rolls back the encryption package to the previous stable version due to issues caused by the latest update.
