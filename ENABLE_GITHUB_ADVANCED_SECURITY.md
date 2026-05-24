@@ -10,3 +10,6 @@ This document outlines the steps to enable GitHub Advanced Security for the comp
 ## Benefits
 - Vulnerability scanning of dependencies.
 - Secret scanning to detect sensitive information in your codebase.
+
+## Additional Notes
+- Ensure all team members are aware of the changes.
