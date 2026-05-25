@@ -1,0 +1,8 @@
+# Monitoring for New Vulnerabilities
+
+# This file tracks the status of GitHub Advanced Security features and any detected vulnerabilities.
+
+status:
+  security_features_enabled: true
+  monitoring: active
+  last_checked: "2026-05-25T15:45:20Z"
