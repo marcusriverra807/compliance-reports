@@ -1,0 +1,13 @@
+# Enabling GitHub Advanced Security features
+
+# Enable secret scanning
+security:
+  secret_scanning: true
+
+# Enable code scanning
+security:
+  code_scanning: true
+
+# Enable dependency review
+security:
+  dependency_review: true
