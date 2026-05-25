@@ -1,0 +1,5 @@
+# Compliance Reports Configuration
+
+# Ensure GitHub Advanced Security features are enabled
+security:
+  enabled: true
