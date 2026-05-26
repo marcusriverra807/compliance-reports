@@ -13,3 +13,7 @@ This document outlines the steps to enable GitHub Advanced Security for the comp
 
 ## Additional Notes
 - Ensure all team members are aware of the changes.
+
+# Configuration
+- Enable secret scanning.
+- Enable dependency review.
