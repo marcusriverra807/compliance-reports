@@ -1,0 +1,1 @@
+Acknowledged dependencies: chalk, react, express.
