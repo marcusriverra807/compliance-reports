@@ -1,5 +1,3 @@
-# Reverted changes due to suspicious activity
+# Rollback commit 6d0120
 
-This commit reverts the previous changes made in the last hour.
-
-# Reverted commit: 063c11b764ba126bcd01b8e76ba523417744c8fe
+This rollback reverts the changes made in commit 6d012097ae38c4f43ed8266b7daa7ceb9515b2ed.
