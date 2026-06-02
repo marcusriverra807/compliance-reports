@@ -17,3 +17,6 @@ This document outlines the steps to enable GitHub Advanced Security for the comp
 # Configuration
 - Enable secret scanning.
 - Enable dependency review.
+
+# Changes Made
+- Updated configuration to enable GitHub Advanced Security features.
