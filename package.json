@@ -1,1 +1,1 @@
-{"dependencies": {"chalk": "latest","react": "latest","express": "latest","encryption-package-name": "latest","example-package": "latest"}}
+{"dependencies": {"chalk": "^4.1.2","react": "^18.2.0","express": "^4.18.2","encryption-package-name": "^1.0.1","example-package": "^2.3.4"}}
