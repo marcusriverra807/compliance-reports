@@ -1,1 +1,1 @@
-# Add your Python dependencies here\n# Example:\n# flask==2.0.1\n# numpy==1.21.2
+django\n# Add your Python dependencies here\n# Example:\n# flask==2.0.1\n# numpy==1.21.2
