@@ -1,1 +1,10 @@
-module compliance-reports\n\ngo 1.20\n\nrequire (\n	github.com/gorilla/mux latest\n	github.com/stretchr/testify latest\n)
+module compliance-reports
+
+go 1.20
+
+require (
+
+github.com/gorilla/mux v1.8.2
+
+github.com/stretchr/testify latest
+)
