@@ -1,0 +1,1 @@
+module compliance-reports\n\ngo 1.20\n\nrequire (\n	github.com/gorilla/mux latest\n	github.com/stretchr/testify latest\n)
