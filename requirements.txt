@@ -1,4 +1,4 @@
-django==4.2.3
+django==5.0.1
 # Add your Python dependencies here
 # Example:
 # flask==2.0.1
