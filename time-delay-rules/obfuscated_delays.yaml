@@ -1,0 +1,3 @@
+rules:
+  - name: detect_obfuscated_delays
+    pattern: '.*sleep\(.*\|.*wait\(.*\|.*delay\(.*'
