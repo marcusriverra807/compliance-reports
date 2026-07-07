@@ -1,0 +1,1 @@
+Added resolution for issue 82
